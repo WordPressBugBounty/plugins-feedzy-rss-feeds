@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/feedzy-rss-feeds',
-        'pretty_version' => 'v4.4.15',
-        'version' => '4.4.15.0',
-        'reference' => '0c0219332657cc06e9f801437d4fad49a3b375a6',
+        'pretty_version' => 'v4.4.16',
+        'version' => '4.4.16.0',
+        'reference' => 'a438e1661f3a1a2d33ccd254ae77363513e9d4a6',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,18 +11,18 @@
     ),
     'versions' => array(
         'codeinwp/feedzy-rss-feeds' => array(
-            'pretty_version' => 'v4.4.15',
-            'version' => '4.4.15.0',
-            'reference' => '0c0219332657cc06e9f801437d4fad49a3b375a6',
+            'pretty_version' => 'v4.4.16',
+            'version' => '4.4.16.0',
+            'reference' => 'a438e1661f3a1a2d33ccd254ae77363513e9d4a6',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
         'codeinwp/themeisle-sdk' => array(
-            'pretty_version' => '3.3.37',
-            'version' => '3.3.37.0',
-            'reference' => '73e9010fb4e30ad8835f00a0df802733f98c4094',
+            'pretty_version' => '3.3.38',
+            'version' => '3.3.38.0',
+            'reference' => 'f71ba995f662ce96dcf8df08b89c4836d4c75109',
             'type' => 'library',
             'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
             'aliases' => array(),
