@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeinwp/feedzy-rss-feeds',
-        'pretty_version' => 'v5.0.9',
-        'version' => '5.0.9.0',
-        'reference' => '96260d2ecc4c111e38efbe930770522db630313c',
+        'pretty_version' => 'v5.0.10',
+        'version' => '5.0.10.0',
+        'reference' => '3814d0722794fdc905db401ba5d27d1318b2729f',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'codeinwp/feedzy-rss-feeds' => array(
-            'pretty_version' => 'v5.0.9',
-            'version' => '5.0.9.0',
-            'reference' => '96260d2ecc4c111e38efbe930770522db630313c',
+            'pretty_version' => 'v5.0.10',
+            'version' => '5.0.10.0',
+            'reference' => '3814d0722794fdc905db401ba5d27d1318b2729f',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
