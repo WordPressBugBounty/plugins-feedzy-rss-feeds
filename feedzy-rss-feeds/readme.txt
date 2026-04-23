@@ -4,7 +4,7 @@ Tags: rss aggregator, news aggregator, autoblogging, feed to post, rss import
 Requires at least: 6.0
 Requires PHP: 7.2
 Tested up to: 6.9
-Stable tag: 5.1.2
+Stable tag: 5.1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -71,7 +71,7 @@ These advanced controls give you full editorial power over your imported content
 
 ## 🤔 WHAT YOU CAN DO WITH FEEDZY RSS AGGREGATOR: ##
 
-* **[Feed to post](https://docs.themeisle.com/article/742-how-to-import-posts-from-feeds-in-feedzy)** (our most loved feature 💕): automatically convert RSS feed items to Wordpress pages, posts, and custom post type.
+* **[Feed to post](https://docs.themeisle.com/article/742-how-to-import-posts-from-feeds-in-feedzy)** (our most loved feature 💕): automatically convert RSS feed items to WordPress pages, posts, and custom post type.
 * **Automatically import** and aggregate RSS feeds from unlimited sources.
 * **Bulk import and organize** multiple feed sources of similar topics into Categories. See how our user, **Barry Seward**, loves this feature [here](https://wordpress.org/support/topic/works-great-6051/)
 * **Easily display RSS feeds** using shortcodes, Gutenberg blocks, or widgets in your third-party page builders like Elementor
@@ -112,10 +112,10 @@ If you love FEEDZY RSS Aggregator, why not bring your site to the next level wit
 **USE CASE:** 🔍 Mark, a content curator, maximizes efficiency with Keyword Filter. He effortlessly refines his RSS feed imports by specifying keywords like "AI" and "tech trends." This automatic sorting saves Mark hours of manual review, allowing him to focus on crafting engaging content and boosting his blog's SEO impact. 
 
 * **Map the imported feed elements to your post elements**: totally control and customize how your feed to post, such as using the feed’s image or your image as the featured image, importing only the feed’s content or both the content and image into the post content, creating post drafts first to review or publishing right away, and so many more.
-* **[Full-text RSS feeds import (with image)](https://docs.themeisle.com/article/742-how-to-import-posts-from-feeds-in-feedzy)** (with image): by extracting the entire HTML from each feed item, you can import full-text content to post, not just the feed excerpt.
+* **[Full-text RSS feeds import (with image)](https://docs.themeisle.com/article/742-how-to-import-posts-from-feeds-in-feedzy)** : by extracting the entire HTML from each feed item, you can import full-text content to post, not just the feed excerpt.
 * **Paraphrasing content before import**: Rewrite your content before RSS import with the built-in feature.
 * **Automatically translate the content on import**: Choose to translate the feed into various languages before import.
-* **[Multiple feed templates](https://demo.themeisle.com/feedzy-rss-feeds/)**: choose the best template for each feed, such as standard grid layout, blog layout, online shop layout, or audio playback (soundcloud) playout.
+* **[Multiple feed templates](https://demo.themeisle.com/feedzy-rss-feeds/)**: choose the best template for each feed, such as standard grid layout, blog layout, online shop layout, or audio playback (soundcloud) layout.
 * **OpenAI (ChatGPT) integration**: Use the OpenAI API feature to paraphrase, summarize, generate missing featured images, or apply your custom prompt to the imported content.
 * **[WordAI and SpinnerChief integration](https://docs.themeisle.com/article/746-how-to-use-wordai-to-rephrase-rss-content-in-feedzy)** to avoid duplicated content.
 * **[Parse and display pricings](https://docs.themeisle.com/article/923-how-price-is-displayed-from-the-feed)** for online shop and product feeds.
@@ -462,6 +462,11 @@ You have to check first if your feed is valid. Please test it here: https://vali
  = How to install and activate Feedzy Pro =
  [https://docs.themeisle.com/article/1247-how-to-install-and-activate-feedzy-pro](https://docs.themeisle.com/article/1247-how-to-install-and-activate-feedzy-pro)
 
+ = How to report a security issue? =
+ 
+ Plugin security is a core priority for us. If you identify a potential vulnerability, we ask that you disclose it responsibly.
+ Please follow the reporting protocols outlined on our [Security Page](https://themeisle.com/security/).
+
  == Screenshots ==
 
 1. Add Categories
@@ -474,9 +479,16 @@ You have to check first if your feed is valid. Please test it here: https://vali
 
  == Changelog ==
 
-##### [Version 5.1.2](https://github.com/Codeinwp/feedzy-rss-feeds/compare/v5.1.1...v5.1.2) (2025-11-20)
+##### [Version 5.1.3](https://github.com/Codeinwp/feedzy-rss-feeds/compare/v5.1.2...v5.1.3) (2026-04-23)
 
-- Enhanced security
+- Added crons removal on uninstallation of the plugin
+- Fixed issue when Custom Fields were missing after import
+- Preserve HTML tags in “Content Area” When editing Import Jobs
+- Added Feedzy educational videos to dashboard
+- Made http_headers_useragent filter compatible with WP
+- Fixed issue with featured image not being assigned from some feeds
+
+
 
 
 [See changelog for all versions](https://github.com/Codeinwp/feedzy-rss-feeds/blob/master/CHANGELOG.md).
