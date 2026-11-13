@@ -4,7 +4,7 @@
 **Requires at least:** 6.0  
 **Requires PHP:** 7.2  
 **Tested up to:** 7.1  
-**Stable tag:** 5.2.15  
+**Stable tag:** 5.2.16  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -131,7 +131,7 @@ Unlock all these premium features with [Feedzy PRO!](https://themeisle.com/plugi
 
 * 📚 [Knowledge Base](https://docs.themeisle.com/category/712-feedzy): we’ve created a complete documentation library and we’re still constantly updating with new tutorials.
 * 📽️ [Youtube tutorials](https://www.youtube.com/channel/UCAQcBsP3h6p5yXgFap4LEGA/search?query=feedzy): don’t like reading? We’ve created some YouTube tutorials to help you get started with the FEEDZY RSS Aggregator plugin step by step.
-* 🦸 [Support forum](https://wordpress.org/support/plugin/feedzy-rss-feeds/): we offer support to free version user here and try to reply within one business day.
+* 🦸 Support: free version users can ask us from the **Help** button in the Feedzy dashboard or in our [support forum](https://wordpress.org/support/plugin/feedzy-rss-feeds/). We try to reply within one business day.
 * 🌟 [Premium support](https://themeisle.com/contact/): We offer priority support for Developer license customers and live chat support for Agency license customers.
 
 If you have any feedback or feature suggestions for the FEEDZY RSS Aggregator, don’t hesitate to tell us. We read all feedback and ideas.
@@ -479,10 +479,9 @@ You have to check first if your feed is valid. Please test it here: https://vali
 
  == Changelog ==
 
-##### [Version 5.2.15](https://github.com/Codeinwp/feedzy-rss-feeds/compare/v5.2.14...v5.2.15) (2026-11-06)
+##### [Version 5.2.16](https://github.com/Codeinwp/feedzy-rss-feeds/compare/v5.2.15...v5.2.16) (2026-11-12)
 
-- Fixed broken block editor thumbnails on sites without HTTPS support
-- Updated dependencies
+- Enhanced security
 
 
 
